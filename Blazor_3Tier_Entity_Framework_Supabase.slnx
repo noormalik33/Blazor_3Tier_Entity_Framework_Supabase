@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="BusinessLogicLayer/BusinessLogicLayer.csproj" />
+  <Project Path="DataAccessLayer/DataAccessLayer.csproj" />
+  <Project Path="Models/Models.csproj" />
+  <Project Path="UserInterface/UserInterface.csproj" Id="0bf5b414-8d12-4659-955d-af4cf04eed04" />
+</Solution>

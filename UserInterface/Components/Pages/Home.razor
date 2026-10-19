@@ -1,0 +1,26 @@
+﻿@page "/"
+@rendermode InteractiveServer
+@inject IProductService ProductService
+
+<table class="table">
+    @foreach (var item in products)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Name</td>
+            <td>@item.Category</td>
+            <td>@item.Price</td>
+        </tr>
+    }
+
+</table>
+
+@code{
+    ProductModel productModel = new ProductModel();
+    List<ProductModel> products = new List<ProductModel>();
+
+    protected override void OnInitialized()
+    {
+        products = ProductService.GetAll();
+    }
+}

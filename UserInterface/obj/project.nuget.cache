@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "lsFByFWQmZw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\noorm\\Documents\\BSIT-F-23-B-937\\Semesters\\Semester 07\\Full Stack Web Development Lab\\Lab Activities\\Lab 04\\FullStackLabTemplate\\UserInterface\\UserInterface.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\noorm\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.12\\microsoft.aspnetcore.app.internal.assets.10.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
